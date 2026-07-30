@@ -37,7 +37,7 @@ const GALLERY = [
 
 export default function Testimonials() {
   return (
-    <section id="testimonials" className="testimonials section-pad">
+    <section className="testimonials section-pad">
       <div className="container">
         <p className="eyebrow on-dark">Testimonials</p>
         <h2 className="testimonials__title">What God Is Doing Through UDBC</h2>

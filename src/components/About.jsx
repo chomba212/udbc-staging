@@ -48,6 +48,10 @@ export default function About() {
           <div className="about__media">
             <div className="about__frame">
               <img src={kidBW} alt="Sunday school ministry" />
+              <div className="about__caption">
+                <strong>JESUS DIED</strong>
+                <strong>FOR HIM</strong>
+              </div>
             </div>
           </div>
         </div>

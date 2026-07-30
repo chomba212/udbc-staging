@@ -10,17 +10,11 @@ const STEPS = [
 ];
 
 const PAYMENTS = [
-  ['M-PESA', 'Tanzania (primary) — STK Push to your phone', 'mpesa'],
-  ['Tigo Pesa', 'Tanzania — same digital wallet flow', 'tigopesa'],
-  ['Airtel Money', 'Tanzania — Airtel subscribers', 'airtel'],
-  ['M-PESA Kenya', 'Kenya — KES equivalent at checkout', 'mpesa'],
-  ['Voucher / Lesson Code', 'All countries — church-distributed codes', 'voucher'],
-];
-
-const REFERRAL_REWARDS = [
-  ['1 successful referral', '1 week free grade extension'],
-  ['3 successful referrals', '3 weeks free grade extension'],
-  ['5 successful referrals', 'One grade fee waiver'],
+  ['🟩', 'M-PESA', 'Tanzania (primary) — STK Push to your phone'],
+  ['🟦', 'Tigopesa', 'Tanzania — same digital wallet flow'],
+  ['🟥', 'Airtel Money', 'Tanzania — Airtel subscribers'],
+  ['🟩', 'M-PESA (Kenya)', 'Kenya — KES equivalent at checkout'],
+  ['⬛', 'Voucher / Lesson Code', 'All countries — church-distributed codes'],
 ];
 
 export default function Enrol() {
@@ -45,7 +39,7 @@ export default function Enrol() {
               ))}
             </div>
 
-            <a href="https://udbc.sqooli.africa/intake-landing" className="btn btn-yellow enrol__cta">Enrol Now – July 2026 Intake</a>
+            <a href="/enroll/" className="btn btn-yellow enrol__cta">Enrol Now – July 2026 Intake</a>
           </div>
 
           <div className="enrol__media">
@@ -58,9 +52,9 @@ export default function Enrol() {
             <p className="eyebrow">Payment Options</p>
             <div className="ptable">
               <div className="ptable__row ptable__head"><span>Method</span><span>Available In</span></div>
-              {PAYMENTS.map(([method, avail, brand]) => (
+              {PAYMENTS.map(([icon, method, avail]) => (
                 <div className="ptable__row" key={method}>
-                  <span className={`ptable__method ptable__method--${brand}`}>{method}</span>
+                  <span className="ptable__method"><i>{icon}</i>{method}</span>
                   <span>{avail}</span>
                 </div>
               ))}
@@ -70,10 +64,10 @@ export default function Enrol() {
             <p className="eyebrow">Referral Rewards Programme</p>
             <div className="ptable">
               <div className="ptable__row ptable__head"><span>Referrals Made</span><span>Reward</span></div>
-              {REFERRAL_REWARDS.map(([referrals, reward]) => (
-                <div className="ptable__row" key={referrals}>
-                  <span>{referrals}</span>
-                  <span>{reward}</span>
+              {PAYMENTS.map(([, method]) => (
+                <div className="ptable__row" key={method}>
+                  <span>1 successful referral</span>
+                  <span>1 week free grade extension</span>
                 </div>
               ))}
             </div>

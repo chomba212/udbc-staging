@@ -25,7 +25,7 @@ export default function Navbar() {
           </span>
         </a>
 
-        <nav id="primary-navigation" className={`navbar__links ${open ? 'is-open' : ''}`}>
+        <nav className={`navbar__links ${open ? 'is-open' : ''}`}>
           {LINKS.map((l) => (
             <a key={l.href} href={l.href} onClick={() => setOpen(false)}>
               {l.label}
@@ -35,7 +35,7 @@ export default function Navbar() {
 
         <div className="navbar__right">
           <div className="navbar__lang">🇬🇧 Eng (UK) <span>▾</span></div>
-          <button className="navbar__burger" onClick={() => setOpen(!open)} aria-label="Toggle menu" aria-expanded={open} aria-controls="primary-navigation">
+          <button className="navbar__burger" onClick={() => setOpen(!open)} aria-label="Toggle menu">
             <span></span><span></span><span></span>
           </button>
         </div>

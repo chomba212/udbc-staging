@@ -1,17 +1,17 @@
 import './Hero.css';
-import { heroPortrait } from '../assets/images';
+import { trainingPhoto } from '../assets/images';
 
 const STATS = [
   { value: '1994', label: 'Ministry Est.' },
-  { value: '70,000+', label: 'Members' },
-  { value: '400+', label: 'Churches Worldwide' },
+  { value: '2 Million+', label: 'Members' },
+  { value: '2,000+', label: 'Churches Worldwide' },
   { value: 'Jul 2026', label: 'Intake Open' },
 ];
 
 export default function Hero() {
   return (
     <section id="home" className="hero">
-      <div className="hero__bg" style={{ backgroundImage: `url(${heroPortrait})` }} />
+      <div className="hero__bg" style={{ backgroundImage: `url(${trainingPhoto})` }} />
       <div className="hero__overlay" />
 
       <div className="container hero__content">
@@ -26,7 +26,7 @@ export default function Hero() {
           your home, from your congregation.
         </p>
         <div className="hero__actions">
-          <a href="#enrol" className="btn btn-gradient">Enrol Now – July 2026 Intake</a>
+          <a href="/enroll/" className="btn btn-gradient">Enrol Now – July 2026 Intake</a>
           <a href="#about" className="btn btn-yellow">Learn More</a>
         </div>
 

@@ -49,7 +49,3 @@
 @media (max-width: 900px){
   .footer__top{ grid-template-columns: 1fr 1fr; }
 }
-
-@media (max-width: 560px){
-  .footer__top{ grid-template-columns: 1fr; gap: 28px; }
-}

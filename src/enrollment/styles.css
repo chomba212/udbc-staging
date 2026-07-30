@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap');
+@import './base.css';
+
+.agreement-note { display: block; color: #a26767; font-size: 11px; margin-top: 8px; }
+.phone-input { display: flex; gap: 8px; margin-top: 6px; }
+.phone-input select { width: 105px; border: 1px solid #e7e8ee; border-radius: 12px; padding: 0 8px; background: #fff; color: #30313d; font: 14px 'DM Sans', sans-serif; }
+.phone-input input { margin-top: 0; flex: 1; }
+.review-actions .primary, .review-actions .secondary { flex: 1; width: 50%; }
+.intake-select { display: block; font-size: 10px; margin: 0 0 12px; }
+.intake-select select { display: block; width: 100%; margin-top: 6px; border: 1px solid #e7e8ee; border-radius: 10px; padding: 9px 12px; background: #fff; color: #30313d; font: 14px 'DM Sans', sans-serif; }
+
+.brand-mark { object-fit: cover; display: block; }

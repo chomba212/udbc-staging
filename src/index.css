@@ -51,11 +51,6 @@ ul{ margin:0; padding:0; list-style: none; }
 
 button{ font-family: inherit; cursor: pointer; border: none; }
 
-a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible{
-  outline: 3px solid var(--yellow);
-  outline-offset: 3px;
-}
-
 .container{
   max-width: 1200px;
   margin: 0 auto;
@@ -121,11 +116,6 @@ section{ position: relative; }
 
 @media (max-width: 900px){
   .section-pad{ padding: 56px 0; }
-}
-
-@media (max-width: 560px){
-  .container{ padding: 0 18px; }
-  .btn{ width: 100%; white-space: normal; }
 }
 
 ::selection{ background: var(--yellow); color: #2c1c05; }

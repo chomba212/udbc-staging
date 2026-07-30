@@ -27,19 +27,19 @@ export default function Footer() {
           <a href="#enrol">How to Enrol</a>
           <a href="#fees">Fees</a>
           <a href="#leadership">Leadership</a>
-          <a href="#testimonials">Testimonials</a>
+          <a href="#">Testimonials</a>
         </div>
 
         <div className="footer__col">
           <h4>Ministry</h4>
-          <a href="https://ufufuonauzima.org">ufufuonauzima.org</a>
-          <a href="https://www.youtube.com/@UFUFUONAUZIMA">RudishaTv (YouTube)</a>
+          <a href="#">ufufuonauzima.org</a>
+          <a href="#">RudishaTv (Youtube)</a>
           <span className="footer__muted">Sunday Service: 8.40 AM &amp; 11.00 AM</span>
         </div>
 
         <div className="footer__col">
           <h4>Contact</h4>
-          <a href="mailto:admin@udbc.sqooli.africa">admin@udbc.sqooli.africa</a>
+          <a href="#">admin@udbc.sqooli.africa</a>
           <span className="footer__muted">WhatsApp: +255 *** *** ***</span>
           <span className="footer__badge">July 2026 Intake Now Open!</span>
         </div>

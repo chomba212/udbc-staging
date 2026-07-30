@@ -50,8 +50,3 @@
   .qcard:not(:last-child){ border-bottom: 1px solid rgba(255,255,255,0.3); }
   .gallery{ grid-template-columns: repeat(2, 1fr); }
 }
-
-@media (max-width: 560px){
-  .gallery{ grid-template-columns: 1fr; }
-  .qcard{ padding: 24px 20px; }
-}

@@ -80,22 +80,7 @@
   letter-spacing: 0.06em;
   color: var(--muted);
 }
-.ptable__method{
-  display: inline-flex;
-  align-items: center;
-  width: fit-content;
-  min-height: 28px;
-  padding: 4px 9px;
-  border-radius: 5px;
-  font-size: 12px;
-  font-weight: 800;
-  letter-spacing: 0.02em;
-  line-height: 1;
-}
-.ptable__method--mpesa{ background: #dff1df; color: #08783c; }
-.ptable__method--tigopesa{ background: #e4efff; color: #1265b0; }
-.ptable__method--airtel{ background: #fde5e4; color: #c51f25; }
-.ptable__method--voucher{ background: #eef0ef; color: #43505b; }
+.ptable__method{ display: flex; align-items: center; gap: 8px; font-weight: 600; }
 
 @media (max-width: 900px){
   .enrol__top{ grid-template-columns: 1fr; }

@@ -59,8 +59,3 @@
   .fsum{ border-left: none; border-top: 1px solid rgba(255,255,255,0.15); }
   .fsum:first-child{ border-top: none; }
 }
-
-@media (max-width: 560px){
-  .fsum{ padding: 24px 20px; }
-  .fsum__values{ flex-direction: column; gap: 16px; }
-}

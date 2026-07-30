@@ -96,15 +96,5 @@
   .hero__title{ font-size: 40px; }
   .hero__stats{ grid-template-columns: repeat(2, 1fr); }
   .hero__stat{ border-bottom: 1px solid rgba(255,255,255,0.35); }
-  .hero__stat:nth-child(2n){ border-right: none; }
   .hero__scrollTop{ display: none; }
-}
-
-@media (max-width: 560px){
-  .hero{ padding-top: 64px; padding-bottom: 40px; }
-  .hero__title{ font-size: 34px; }
-  .hero__desc{ font-size: 15px; }
-  .hero__actions{ margin-bottom: 40px; }
-  .hero__stat{ padding: 18px 14px; }
-  .hero__stat strong{ font-size: 23px; }
 }

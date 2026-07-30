@@ -92,7 +92,7 @@ export default function Programmes() {
           Two pathways, seven grades — from Potential Shepherd to Senior Resident Pastor. Every
           grade runs 8–10 weeks, delivered entirely on the Sqooli platform
         </p>
-        <a href="#enrol" className="btn btn-gradient programmes__cta">Enrol Now – July 2026 Intake</a>
+        <a href="/enroll/" className="btn btn-gradient programmes__cta">Enrol Now – July 2026 Intake</a>
 
         <div className="programmes__cards">
           <div className="pcard">

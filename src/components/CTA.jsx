@@ -15,7 +15,7 @@ export default function CTA() {
           <h2>Your Calling Is Waiting</h2>
           <p className="cta__sub">Enrol Today — July 2026 Intake Now Open</p>
           <p className="cta__verse">"Lisha Kondoo Zangu" — John 21:17</p>
-          <a href="https://udbc.sqooli.africa/intake-landing" className="btn btn-gradient">Enrol Now</a>
+          <a href="/enroll/" className="btn btn-gradient">Enrol Now</a>
         </div>
       </div>
     </section>

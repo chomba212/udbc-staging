@@ -24,7 +24,7 @@ export default function Contact() {
           </p>
           <ul className="contact__list">
             <li><span>🌐</span> Website <a href="https://udbc.sqooli.africa">udbc.sqooli.africa</a></li>
-            <li><span>🌐</span> Enrolment Portal <a href="https://udbc.sqooli.africa/intake-landing">udbc.sqooli.africa/intake-landing</a></li>
+            <li><span>🌐</span> Enrolment Portal <a href="/enroll/">udbc.sqooli.africa/enroll/</a></li>
             <li><span>✉️</span> Email Address admin@udbc.sqooli.africa</li>
             <li><span>💬</span> WhatsApp Portal +255 XXX XXX XXX</li>
             <li><span>▶️</span> Youtube <a href="#">UFUFUONAUZIMA (RudishaTv)</a></li>
